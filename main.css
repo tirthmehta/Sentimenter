@@ -1,0 +1,143 @@
+body {
+  text-align: center;
+  background-image:url(super.jpg);
+  background-size: cover;
+}
+
+body.result-page {
+  text-align: center;
+  background: linear-gradient(#D3D3D3, transparent), url("./super.jpg") no-repeat bottom;
+  background-size: cover;
+  box-shadow: 0px 5px 10px -5px rgba(0,0,0,.8);
+}
+
+
+.login {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.select {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.boxes {
+  padding-top: 3em;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.form-control {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.form-control:active {
+  border-color: black !important;
+}
+
+.form-control:focus {
+  border-color: black !important;
+}
+
+#input-page-label {
+  float: left;
+}
+
+.candidate-dropdown {
+  text-align: center !important;
+}
+
+#thumbs-up {
+  background-color: green;
+  opacity: 50%;
+}
+
+#thumbs-down {
+
+}
+
+img {
+  padding-top: 10em;
+  padding-bottom: 1.5em;
+}
+
+.result-img {
+  padding-top: 1em;
+}
+
+button {
+  background-color: rgba(173,208,54,.75) !important;
+  border-color: black !important;
+  color: black !important;
+}
+
+button:hover {
+  background-color: #3e8e41 !important
+  border-color: black !important;
+}
+
+button:active {
+  background-color: grey !important;
+  box-shadow: 0 5px #666 !important;
+  border-color: black !important;
+  transform: translateY(4px) !important;
+}
+
+
+.action-menu{
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #333;
+
+  li{
+    min-width: 102px;
+    padding-right: 10px;
+    font-size: 1.25em;
+    color: #333;
+
+    &.selected a{
+      color: #5cb85c; /*$brand-success;*/
+      opacity: 1;
+    }
+  }
+
+  a{
+    position: relative;
+    text-decoration: none;
+    opacity: .5;
+
+    &:hover{
+      opacity: 1;
+    }
+  }
+}
+
+.counter:before{
+  content: '[';
+}
+.counter:after{
+  content: ']';
+}
+
+.donut-charts {
+  padding-top: 2em !important;
+  padding-bottom: 2em !important;
+}
+
+div.card-header {
+  /*padding-bottom: 1.5em !important;*/
+  background-color: rgba(173,208,54,.75) !important;
+  font-weight: bold !important;
+}
+
+div.row {
+  padding-bottom: ;
+}
+
+
+#barChart {
+  width: 100% !important;
+  max-width: 800px;
+  height: auto !important;
+}

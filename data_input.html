@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+  </head>
+  <body style="background-image:url(super.jpg); background-size: 100%;">
+    <img src="./ziprecruiter-notext.svg" width="40" style="padding-bottom: 4px;">
+    <img src="./logo.png" style="margin-bottom: -1.25em;">
+    <div class='col-md-12 choose-candidate' style="margin-top: 1em;">
+      <div class='col-md-3 select'>
+        <h3>Choose a candidate</h3>
+        <form>
+          <div class="form-group candidate-dropdown" style="margin-top: -1em;">
+            <label for="sel1"></label>
+            <select class="form-control" id="sel1">
+              <option value="" disabled selected>Select your candidate</option>
+              <option>Thomas</option>
+              <option>Jay</option>
+              <option>Tirth</option>
+              <option>Rishabh</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary submit-candidate">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <div class='col-md-12 boxes' id="boxes" style="display: none;">
+      <form action="./index.html">
+        <div class="form-group">
+          <label id="input-page-label" for="message-text" class="form-control-label">Feedback 1</label>
+          <textarea class="form-control" rows="7" id="review"></textarea>
+        </div>
+        <div class="form-group">
+          <label id="input-page-label" for="message-text" class="form-control-label">Feedback 2</label>
+          <textarea class="form-control" rows="7" id="review"></textarea>
+        </div>
+        <div class="form-group">
+          <label id="input-page-label" for="message-text" class="form-control-label">Feedback 3</label>
+          <textarea class="form-control" rows="7" id="review"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary execute">Submit Data</button>
+        <button type="submit" class="btn btn-primary execute">Resume Upload</button>
+      </form>
+    </div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="./application.js"></script>
+  </body>
+</html>
